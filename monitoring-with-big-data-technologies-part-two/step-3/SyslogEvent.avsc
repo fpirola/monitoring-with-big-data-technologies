@@ -1,0 +1,12 @@
+{"namespace": "org.pirola",
+"type": "record",
+"name": "SyslogEvent",
+"fields": [
+{"name": "facility", "type": ["null", "int"]},
+{"name": "severity", "type": ["null", "int"]},
+{"name": "priority", "type": ["null", "int"]},
+{"name": "timestamp", "type": "long"},
+{"name": "host", "type": "string"},
+{"name": "message", "type": "string"}
+]
+}
